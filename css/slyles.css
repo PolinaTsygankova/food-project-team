@@ -1,16 +1,16 @@
 body {
-   font-family: "Roboto", sans-serif;
-   font-size: 16px;
-   color: #2c2c2c;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #2c2c2c;
 }
 
 .container {
-   width: 1280px;
-   padding-left: 16px;
-   padding-right: 16px;
+  width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
 
-   margin-left: auto;
-   margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1,
@@ -20,21 +20,100 @@ h4,
 h5,
 h6,
 p {
-   margin: 0;
+  margin: 0;
 }
 
 .link {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-   list-style: none;
-   margin: 0;
-   padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 img {
-   display: block;
-   max-width: 100%;
-   height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.subscribe {
+  display: flex;
+}
+
+.subscribe-header {
+  margin-bottom: 20px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+
+  /* or 50px */
+
+  /* Black */
+
+  color: #2c2c2c;
+}
+.subscribe-paragraph {
+  margin-bottom: 24px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* or 24px */
+
+  /* Black */
+
+  color: #2c2c2c;
+}
+.subscribe-buttons {
+  display: flex;
+  flex-direction: row;
+}
+.enter-email-button {
+  padding: 0;
+  margin-right: 32px;
+  width: 394px;
+  height: 42px;
+
+  background: #fefefe;
+  /* Yellow main */
+
+  border: 0.854167px solid #ffe550;
+  border-radius: 30px;
+}
+.text-email-button {
+  padding-left: 11px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: left;
+  /* identical to box height, or 18px */
+
+  /* Neutral/Dark gray */
+
+  color: #505050;
+}
+.subscribe-button {
+  padding: 0;
+  width: 103px;
+  height: 42px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  /* identical to box height, or 20px */
+
+  color: #2c2c2c;
+  background: #bbf330;
+  border-radius: 30px;
 }
